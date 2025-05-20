@@ -12,6 +12,8 @@ img {
     margin: 32px auto;
     border: 5px groove slateblue;
     border-radius: 10px;
+    height: 350px;
+    width: auto;
 }
 
 h1 {
