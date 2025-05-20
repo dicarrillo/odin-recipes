@@ -1,9 +1,29 @@
 * {
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
 body {
     background-color: lavender;
+    font-family: "Verdana", sans-serif;
+}
+
+img {
+    display: block;
+    margin: 32px auto;
+    border: 5px groove slateblue;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h1,
+.description-container {
+    text-align: center;
+}
+
+.description-container,
+.ingredients-container,
+.directions-container {
+    margin: 32px;
 }
