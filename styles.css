@@ -11,10 +11,37 @@ img {
     display: block;
     margin: 32px auto;
     border: 5px groove slateblue;
+    border-radius: 10px;
 }
 
 h1 {
     text-decoration: underline;
+}
+
+.description-container {
+    background-color: midnightblue;
+    color: white;
+    width: 1200px;
+    margin: 32px auto;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.home-link {
+    text-align: center;
+    margin: 32px;
+}
+
+.food {
+    background-color: rgb(104, 240, 255);
+}
+
+.home-link a {
+    color: white;
+    background-color: midnightblue;
+    padding: 10px 32px;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 h1,
@@ -22,7 +49,18 @@ h1,
     text-align: center;
 }
 
-.description-container,
+.description-container h2 {
+    margin-top: 0px;
+}
+
+.description-container p {
+    padding: 10px;
+    margin: auto;
+    width: 1000px;
+    background-color: purple;
+    border-radius: 10px;
+}
+
 .ingredients-container,
 .directions-container {
     margin: 32px;
